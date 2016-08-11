@@ -24,11 +24,11 @@ There are two custom events you can listen to with `jQuery(element).on()`:
 - `modal-opening`: called immediately prior to the modal opening; event
    object contains:
 
-    {
-        'modal': modalWrapperDOMElement,
-        'modalContents': modalContentWrapperDOMElement
-        'closeModal': closeModalFunction,
-    }
+        {
+            'modal': modalWrapperDOMElement,
+            'modalContents': modalContentWrapperDOMElement
+            'closeModal': closeModalFunction,
+        }
 
 - `modal-closed`: called immediately after the modal is closed
 
