@@ -52,7 +52,7 @@
  *         // element, one child element must include a `data-modal-content`
  *         // attribute. Any "close button" elements must include a
  *         // `data-modal-close` attribute.
- *         'modal': '<div class="async-modal"><a class="async-modal__close-button" data-modal-close>&times;</a><div class="async-modal__content" data-modal-content></div></div>',
+ *         'modal': '<div id="async-modal"><a class="async-modal__close-button" data-modal-close>&times;</a><div id="async-modal__content" data-modal-content></div></div>',
  *     }
  *
  * ### Appearance
